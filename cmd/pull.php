@@ -1,2 +1,3 @@
 <?php
-exec('pull.bat');
+exec('pull.bat', $output);
+echo '<pre>', print_r($output);
