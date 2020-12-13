@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+h2 {
+    font-size: 14pt;
+    text-align: center;
+}
+
+@media print {
+    .sorok {
+        display: none;
+    }
+}
+
+.sorok {
+    text-align: center;
+}
+
+.container {
+    width: 620px;
+    margin: auto;
+}
+
+.letterhead {
+    width: 100%;
+}
+
+.kanan {
+    float: right;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid;
+    padding: 4px;
+}
+
+.statistik th:nth-child(1) {
+    width: 20px;
+}
+
+.statistik td:nth-child(1),
+.statistik td:nth-child(3),
+.statistik td:nth-child(4) {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
